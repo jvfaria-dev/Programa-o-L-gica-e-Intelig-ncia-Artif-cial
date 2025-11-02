@@ -1,0 +1,78 @@
+resolve(S) :-
+    S = busstop(_,_,_,_,_),
+    camiseta(M1,verde),
+    esta_entre(M2,M1,M3,S),
+    nome(M2,marcia),
+    comida(M3,frango),
+    
+    exatamente_a_esquerda(M4,M5,S),
+    bebida(M4,cha),
+    onibus(M5"3333-C'"),
+    
+    nome(M6,cecilia),
+    esta_entre(M7,M6,M8,S),
+    onibus(M7,"1111-A"),
+    nome(M8,paola),
+    
+    quarta_posicao(M9,S),
+    destino(M9,cinema),
+    
+    a_direita(M10,M11,S),
+    camiseta(M11,branca),
+    onibus(M10,"444-D"),
+    
+    uma_das_pontas(M12,S),
+    bebida(M12,vinho),
+    
+    esta_entre(M13,M14,M15,S),
+    destino(M14,livraria),
+    comida(M13,sopa),
+    destino(M15,museu),
+    
+    camiseta(M16,amarela),
+    primeira_posicao(M16,S),
+    
+    exatamente_a_esquerda(M17,M18,S),
+    nome(M17,isabela),
+    bebida(M18,suco),
+    
+    esta_entre(M19,M20,M21,S),
+    onibus(M20,"2222-B"),
+    nome(M19,isabela),
+    onibus(M21,"5555-E"),
+    
+    umas_das_pontas(M22,S),
+    comida(M22,macarrao),
+    
+    ao_lado(M23,M24,S),
+    bebida(M23,cafe),
+    destino(M24,parque),
+    
+    esta_entre(M25,M26,M27,S),
+    comida(M26,pizza),
+    destino(M25,livraria),
+    comida(M27,frango),
+    
+    ao_lado(M28,M29,S),
+    destino(M28,teatro),
+    comida(M29,peixe),
+    
+    exatamente_a_esquerda(M30,M31,S),
+    camiseta(M30,vermelho),
+    comida(M31,frango),
+    
+    esta_entre(M32,M33,M34,S),
+    destino(M33,museu),
+    comida(M32,sopa),
+    camiseta(M34,branca),
+    
+    uma_das_pontas(M35,S),
+    camiseta(M35,azul),
+    
+    terceira_posicao(M36,S),
+    bebida(M36,suco),
+    
+    esta_entre(M37,M38,M39,S),
+    bebida(M38,suco),
+    bebida(M37,sopa),
+    nome(M39,cecilia),
